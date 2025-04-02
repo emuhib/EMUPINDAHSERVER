@@ -44,7 +44,7 @@ Perintah Berikut ini akan menghapus file di tujuan yang tidak ada di sumber. --d
 rsync -avz --progress --delete /var/www/html/ root@167.71.39.118:/var/www/html/
 
 ```
-### Atau langsung main download pakai SCP untuk memindahkan data 1 Folder misalkan
+## Atau langsung main download pakai SCP untuk memindahkan data 1 Folder misalkan
 ```bash
 scp -r root@server_asal:/root/ess/videos /root/StreamHib/
 
