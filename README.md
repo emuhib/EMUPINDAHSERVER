@@ -31,7 +31,7 @@ sudo apt install apache2 -y
 ### 3. Perintah di Server Sumber (Sesuaikan IP dan Letak Folder)
 Perintah berikut ini akan menimpa file di server tujuan jika nama filenya sama 
 ```bash
-rsync -avz --progress --delete /var/www/html/ root@167.71.39.118:/var/www/html/
+rsync -avz --progress /var/www/html/ root@209.38.20.86:/var/www/html/winser/
 
 ```
 Perintah Berikut ini akan menampilkan apa yang akan ditransfer tanpa benar-benar melakukannya. --dry-run
