@@ -46,7 +46,7 @@ rsync -avz --progress --delete /var/www/html/ root@167.71.39.118:/var/www/html/
 ```
 ## Atau langsung main download pakai SCP untuk memindahkan data 1 Folder misalkan
 ```bash
-scp -r root@server_asal:/root/ess/videos /root/StreamHib/
+scp -r root@server_asal:/root/StreamHib/videos /root/StreamHib/
 
 ```
 ## Lisensi
